@@ -1,0 +1,53 @@
+#root .card{
+    width: 100%;
+    /* border: 2px solid #e71a1a; */
+   
+}
+.card .card-body{
+    display: flex;
+    flex-direction:row;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 20px;
+}
+.form-control{
+    width: 70%; 
+    height: 300px;
+    border: 2px solid #161616;
+}
+.btnBox{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+   gap: 20px;
+}
+.btn{
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
+}
+
+.prevue{
+    width: 500px;
+    height: 300px;
+    /* border: 2px solid #e71a1a; */
+    background-color: rgb(87, 84, 84);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .card-body{
+        display:flex;
+        flex-direction:column;
+        width: 100%;
+      background-color: lightblue;
+    }
+  }
+
+  .summery{
+    width: 100%;
+    /* border: 2px solid #e71a1a; */
+    margin: 10px 10px 10px 10px;
+  }

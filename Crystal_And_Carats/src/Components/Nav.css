@@ -1,0 +1,284 @@
+nav {
+    background-color: #333;
+    color: hsl(0, 0%, 6%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    height: 130px;
+    background-color:#FED7BA;
+    /* border: 2px solid red; */
+   
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 25px;
+}
+
+nav ul li a {
+    color: hsl(0, 0%, 6%);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.logo{
+    width:90%;
+    height: 100px;
+   
+}
+.logo img {
+   width: 100%;
+   height:100%;
+}
+
+
+
+nav .hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+nav .hamburger .line {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+.loginimg{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid hsl(0, 94%, 20%);
+}
+/* .loginimg .navBtn{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    
+} */
+
+.loginimg img{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+   
+    object-fit: cover;  
+    border: 1px  #fff; 
+    border: 2px solid black;  
+}
+
+
+.end li svg{
+   width: 35px;
+    height: 60px;
+}
+
+/* create color variable for nav link */
+.active {
+    color:orange; /* Set the color for the active state */
+  }
+  
+  .inactive {
+    color:black; /* Set the color for the inactive state */
+  }
+
+/* 
+.hover-line::after{
+    content: '';
+    display: block;
+    margin-top: 2px;
+    width: 0;
+    height: 3px;
+    background-color: brown;
+    transition: width .3;
+}
+
+.hover-line:hover::after{
+    width: 100%;
+    transition: width .3s; 
+} */
+@media screen and (max-width: 768px) {
+
+
+.start li a{
+    display: none;
+}
+nav{
+    position: absolute;
+    margin-top: -20px;
+}
+nav .last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5px;
+}
+
+.last .end{
+margin-right: -20px;
+}
+.end li svg{
+    width: 95%;
+     height: 80%;
+ }
+
+/* .center .logo img{
+     display: flex;
+    justify-content:left;
+    align-items: start;
+  
+}  */
+div .center{
+    width: 33%;
+    position: absolute;
+ 
+}
+
+
+    nav .hamburger {
+        display: block;
+       
+       
+    }
+    .logo{
+        width:100%;
+        height:40px;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    nav .logo img {
+      max-width:90%;
+       max-height:100%;
+    }
+    
+    .navBtn{
+      display: none;
+    }
+    .hamb{
+        position: absolute;
+        display: none;
+        width: 270px;
+        height: 480px;
+        border: 2px solid hsl(0, 2%, 24%);
+        background-color: rgb(122, 122, 236);
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+
+       
+    }
+    .infobox{
+        width: 256px;
+        height: 200px;
+       text-align: center;   
+      
+}
+.infoBOxImg img{
+    border-radius: 50%;
+   
+
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    /* margin-top: 10px; */
+    font-size: 15px;
+    text-align: center;
+  
+
+ 
+}
+.list li{
+  
+  padding-left: 5px;
+  width: 150px;
+   display: flex;
+ 
+}
+.list li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    font-size: 15px;
+    color: #fff;
+  
+  
+
+  
+   
+}
+
+
+.btnlogout{
+    padding: 10px 20px;
+    display:block;
+    margin-top: -30px;
+    font-size: 20px;
+    color: #fff;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    }
+    .hamb .cross{
+    position: absolute;
+    right:20px;
+    width: 40px;
+    height: 40px;
+    }
+   
+}
+
+.hamb{
+    display: none;
+    padding:5px;
+    position: absolute;
+    top: 130px;
+     left: 0px;
+ 
+   
+     background-color: #363638;
+     border-radius: 15px;
+     box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2),
+     15px 15px 15px rgba(0,0,0,0.1); 
+   
+
+}
+/* .hamb ul{
+    display: flex;
+    flex-direction:column;
+    align-items: start;
+ 
+    color: #fff;
+}
+
+.navBtn img {
+display: none;
+} */
+
+.cartimg{
+    border:1px solid red;
+    display: contents;
+    padding-right: 10px;
+}
+.cartimg span{
+   
+   margin-bottom: 20px;
+    color:brown;
+    font-size: 25px;
+    font-weight: 700;
+}

@@ -1,0 +1,120 @@
+/* //blog */
+.blog-container{
+    width: 100%;
+  }
+  .blog-container.blog-banneer{
+    width: 100%;
+    height: 500px;
+    /* border: 2px solid #5fec34; */
+  }
+  .blog-banneer img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+  .blog-Latest{
+    width: 100%;
+    /* border: 2px solid #0e1ead; */
+    background: #FED7BA;
+  
+  
+  
+  }
+  .blog-Latest h1{
+    margin-left: 20px;
+    padding-top: 20px;
+  }
+  .blog-Latest p{
+    margin-left: 20px;
+  
+    font-size: 20px;
+    color: #8B0000;
+    
+  
+  }
+  .blog-Latest .blog-card{
+    width: 97%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  justify-content: center;
+  gap: 50px;
+  }
+  
+  .blog-Latest .blog-card .blog-card1{
+      position: relative;
+      width: 300px;
+      height: 400px;
+      margin: 40px 0;
+      font-size: 20px;
+      font-weight: 800;
+      background-color:#fff;
+      border: 1px solid black;
+      background-color: #FED7BA;   
+  }
+  .blog-card1 img{
+    width: 100%;
+    height: 300px;
+  }
+  .card-content{
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 40px;
+  }
+  .card-content p{
+    text-align: center;
+    font-size:18px;
+    margin: 0px;
+    padding: 0px;
+    color: 
+    #8B0000;
+    font-weight: 400;
+  }
+  .footr-card{
+    width: 100%;
+    height: 500px;
+   padding-left: 20px;
+   padding-right: 20px;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    background: #FED7BA;
+  }
+  .footr-card img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+  }
+  .footr-card .foot-c{
+    width: 70%;
+    margin-top: 50px;
+    letter-spacing: 2px;
+    /* border: 1px solid red; */
+    padding: 20px;
+    font-size: 20px;
+  }
+  @media(max-width:700px){
+    .footr-card{
+      width: 100%;
+      height: 600px;
+      /* border: 2px solid green; */
+      display: flex;
+      flex-wrap: wrap; 
+    }.footr-card .foot-c{
+      width: 100%;
+      margin-top: 0px;
+      letter-spacing: 2px;
+      padding: 0px;
+      font-size: 20px;
+   
+    }.foot-c h3{
+      margin: 0px;
+      padding: 0px;
+    }.footr-card img{
+      width: 100%;
+      height: 73%;
+      object-fit: cover;
+    }
+  }
+  

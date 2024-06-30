@@ -1,0 +1,855 @@
+
+
+.container{
+    width:100%;
+    background-color:#FED7BA;
+   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+}
+
+.left-box{
+    width: 57%;
+    margin: 5px;
+    height: 603px;
+    /* border: 1px solid red;  */
+}
+.left-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.right-box{
+    /* border: 2px solid red; */
+    height: 610px;
+}
+
+.slide1{
+    width:520px;
+    height: 290px;
+    position: relative;
+    /* border: 2px solid black; */
+    overflow: hidden;
+    margin-left: 10px;
+    margin-top:5px ;
+   
+}
+.slide2{
+    width:520px;
+    height: 290px;
+    position: relative;
+    /* border: 2px solid black; */
+    overflow: hidden;
+    margin-left: 10px;
+    margin-top:20px ;
+   
+}
+
+.slider{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: .5s;
+}
+.sliders{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: .5s;
+}
+
+/* next */
+
+.container2{
+    width: 100%;
+    height: 150px;
+   
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color:#FED7BA;
+    
+}
+.container2 h1{
+    font-size: 60px;
+    color:#8B0000;
+    font-family: sans-serif;
+    font-weight: 540; 
+ 
+}
+.container2 p{
+    font-size:25px;
+    color:rgb(80, 79, 79);
+    font-family: sans-serif;
+    font-weight: 540; 
+    text-shadow: 2px 2px 2px rgb(128, 127, 127);
+  
+}
+
+
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    /* border: 2px solid red; */
+    background-color: #fff;
+  
+ }
+ svg #Layer_1{
+    margin: 0;
+    padding: 0;
+ }
+
+
+
+.chield1{
+    flex:1 0 120px;
+    display: flex;
+    flex-direction:column;
+    height: 360px;
+    /* border: 2px solid rgb(19, 235, 55); */
+ }
+
+ .card1{
+    flex:1 0 140px;
+    gap: 40px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 1px solid rgb(100, 216, 23); */
+ }
+ .chield1 .text{
+   text-align: center;
+   /* border: 1px solid black; */
+ }
+ .card1 .Box{
+    position: relative;
+    width: 220px;
+    height: 220px;
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 800;
+    background-color:#fff;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+.card1 .Box.Shadow-1{
+    box-shadow: -30px 30px 25px rgba(0,0,0,0.3);
+    z-index: 10;
+}
+.Box.Shadow-1 img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.card2{
+    flex:1 0 120px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    background-color: #fff;
+  
+    gap: 40px;
+    /* border: 1px solid rgb(19, 235, 55); */
+ }
+
+
+.card2 .Box{
+    position: relative;
+    width: 220px;
+    height: 220px;
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 800;
+    background-color:#fff;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+.card2 .Box.Shadow-1{
+    box-shadow: -30px 30px 25px rgba(0,0,0,0.3);
+} 
+
+
+
+
+.container90{
+    width: 100%;
+    height: 150px;
+   
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color:#FED7BA;
+    
+}
+.container90 .content9{
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    text-align: center;
+    padding: 15px;
+   
+    
+}
+.container90 .content9 h1{
+    font-size: 55px;
+    color:#9B0000 ;
+    font-family: sans-serif;
+    font-weight: 540; 
+ 
+ 
+  
+}
+.container90 .content9 p{
+    font-size:25px;
+    color:rgb(80, 79, 79);
+    font-family: sans-serif;
+    font-weight: 540; 
+    text-shadow: 2px 2px 2px rgb(128, 127, 127);
+  
+}
+
+
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    /* border: 2px solid red; */
+    background-color: #fff;
+  
+ }
+
+
+ .container5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   column-gap: 80px;
+   row-gap: 30px;
+    /* border: 2px solid black; */
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 35px;
+ 
+      background-color:#FED7BA;
+ }
+
+
+  .container5 .Box{
+      position: relative;
+      width: 220px;
+      height: 220px;
+      margin: 5px 0;
+     margin-top: 30px;
+      background-color:#fff;
+      /* border: 2px solid black; */
+  
+     
+     
+      
+  }
+  .container5 .Box.Shadow-6{
+  
+ 
+  
+  
+        background:hsl(156, 11%, 91%) ;
+        border-radius: 10px;
+        box-shadow: 20px 20px 60px  hwb(0 1% 68%),
+        inset -20px -20px 60px rgba(255,255,255,0.246) 
+      }
+
+      .container5 .Box.Shadow-6 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+ }
+
+
+ .container7{
+    width: 100%;
+    height: 200px;
+   
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+    background-color:#FED7BA;
+    
+}
+.container7 .content2{
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    padding-top: 70px;
+    text-align: center;
+  
+  
+   
+    
+}
+.container7 .content2 h1{
+    font-size: 55px;
+    color:#9B0000 ;
+    font-family: sans-serif;
+    font-weight: 540; 
+ 
+ 
+ 
+  
+}
+.container7 .content2 p{
+    font-size:25px;
+    color:rgb(80, 79, 79);
+    font-family: sans-serif;
+    font-weight: 540; 
+    text-shadow: 2px 2px 2px rgb(128, 127, 127);
+  
+}
+
+.box-z{
+    width: 100%;
+    height: 650px;
+    border: 2px solid black;
+    position: relative;
+    background-color: #FED7BA;
+  
+}
+
+ .box-z .c-d{
+    width: 100%;
+    height: 325px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: center;
+    gap: 50px;
+    /* border: 2px solid black; */
+    top: 50%;
+    background-color: #b3b0b0;
+    font-size: 20px;
+} 
+.box-z .c-d .Box h4{
+    width: 100%;
+    margin-top: 45px;
+    padding: 20px;
+    font-size:20px;
+    color:hsl(0, 91%, 8%) ;
+    font-family: sans-serif;
+    font-weight: 700; 
+    background-color: #bdb7b7;
+ 
+ 
+ 
+  
+}
+
+
+.box-z .c-d .Box{
+    position: relative;
+    width: 330px;
+    height: 570px;
+    margin: 40px 0;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color:#a52a2a;
+     bottom: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    
+}
+.box-z .c-d .Box.Shadow-1{
+    box-shadow: -30px 30px 25px rgba(0,0,0,0.3);
+}
+.box-z .c-d .Box.Shadow-1 img{
+    width: 75%;
+    height: 80%;
+  
+    object-fit: cover;
+ }
+
+.box-y{
+    width: 100%;
+    height: 500px;
+    /* border: 2px solid blueviolet; */
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FED7BA;
+    position: relative;
+}
+.box-y h1{
+    position: absolute;
+    top: 45%;
+   left: 40%;
+   color: #fff;
+   font-size: 40px;
+}
+.box-y img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 20px;
+}
+
+
+
+.box-j{
+    width: 100%;
+    height: 500px;
+    /* border: 2px solid black; */
+    position: relative;
+    background-color: #FED7BA;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 70px;
+  
+}
+
+
+
+
+.box-j .Box{
+    position: relative;
+    width: 330px;
+    height: 430px;
+    margin: 40px 0;
+    font-size: 20px;
+    font-weight: 800;
+    background-color:hsl(0, 12%, 94%);
+ 
+  
+   
+
+    
+}
+
+.box-j  .Box h4{
+    width: 100%;
+    padding: 10px;
+    font-size:25px;
+    color:hsl(0, 91%, 8%) ;
+    font-family: sans-serif;
+    font-weight: 700; 
+    background-color: #bdb7b7;
+ 
+ 
+ 
+  
+}
+.box-j  .Box.Shadow-1{
+    box-shadow: -30px 30px 25px rgba(0,0,0,0.3);
+}
+.box-j  .Box.Shadow-1 img{
+    width:100%;
+    height: 95%;
+    object-fit: cover;
+ }
+
+
+
+.box-K{
+    width: 100%;
+    height: 500px;
+    padding: 35px;
+    /* border: 2px solid red; */
+    background-color: #FED7BA;
+}
+.slider-auto{
+    width:100%;
+    box-shadow: 20px 20px 10px gray;
+   
+}
+
+
+.container8{
+    width: 100%;
+    height: 200px;
+   
+    /* border: 1px solid rgb(0, 255, 55); */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color:#FED7BA;
+    
+}
+.container8 .content-l{
+    width: 100%;
+
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    text-align: center;
+    padding-top: 30px;
+    /* padding-bottom: -10px; */
+   
+    
+}
+.container8 .content-l h1{
+    font-size: 55px;
+    color:#9B0000 ;
+    font-family: sans-serif;
+    font-weight: 540; 
+ 
+ 
+  
+}
+.container8 .content-l p{
+    font-size:25px;
+    color:rgb(80, 79, 79);
+    font-family: sans-serif;
+    font-weight: 540; 
+    text-shadow: 2px 2px 2px rgb(128, 127, 127);
+  
+}
+
+
+.main-container{
+    width: 100%;
+    /* border: 2px solid red; */
+    background-color:#FED7BA;
+}
+
+.slider-container {
+    width: 90%;
+    margin: 0px auto;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+   
+    display: flex;
+    
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: center;
+
+
+  
+}
+.card-slider {
+    display: flex;
+   
+    transition: transform 0.5s ease;
+      gap: 50px;
+}
+
+
+  .slider-container .Box{
+      position: relative;
+      width: 260px;
+      height: 310px;
+      margin: 40px 0;
+      font-size: 20px;
+      font-weight: 800;
+      background-color:#fff;
+  
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      /* border: 1px solid black; */
+      border-radius: 5px;
+      
+  }
+  .slider-container .Box.Shadow-1{
+      box-shadow: -30px 30px 25px rgba(0,0,0,0.3);
+  }
+  .slider-container .Box.Shadow-1 img{
+    width:100%;
+    height: 90%;
+    object-fit: cover;
+ 
+   
+ }
+ .slider-container .Box h1{
+    font-size: 25px;
+    color:#9B0000 ;
+    font-family: sans-serif;
+    font-weight: 540; 
+    padding: 10px;
+    background-color: gainsboro;
+    border-radius: 0 0 5px 5px;
+ 
+ 
+  
+}
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    z-index: 1;
+}
+.prev {
+    left: 10px;
+}
+.next {
+    right: 10px;
+}
+
+.container11{
+    width: 100%;
+    height: 200px;
+   
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+    background-color:#fff;
+    
+}
+.container11 .content5{
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    padding-top: 70px;
+    text-align: center;
+  
+  
+   
+    
+}
+.container11 .content5 h1{
+    font-size: 40px;
+    color:#9B0000 ;
+    font-family: sans-serif;
+    font-weight: 540; 
+ 
+ 
+ 
+  
+}
+.container11 .content5 p{
+    font-size:25px;
+    color:rgb(80, 79, 79);
+    font-family: sans-serif;
+    font-weight: 540; 
+   
+  
+}
+
+
+.contect{
+    width: 100%;
+    height: 250px;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 30px;
+     /* border: 2px solid rgb(73, 230, 25); */
+     display: flex;
+     justify-content: center;
+  }
+ 
+  .connectCard {
+    width:25%;
+    padding: 30px 30px;
+    height: 200px;
+    background-image: url(https://www.tanishq.co.in/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw6618ff68/images/home/bg-global.avif);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    border-radius: 5px;
+    border: 1px solid pink;
+    background-size: cover;
+    
+ }
+ .icon-img-connect {
+    background-image: url(https://www.tanishq.co.in/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw9fa2f775/images/home/whatsapp-icon.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+ }
+ .connectHeading {
+    color: #832729;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 5px;
+}
+.text-red {
+    color: #832729;
+    font-weight: 600;
+}
+.exploreButton {
+    background: #f6e1dfbf;
+    color: hsl(0, 0%, 5%);
+    border: none;
+    padding: 8px 25px;
+    font-size: 15px;
+    text-align: left;
+    transition: all 0.5s;
+    position: relative;
+     margin-top: 10px;
+     font-weight: 800;
+}
+ .appointmentCard {
+    width:25%;
+    padding: 30px 30px;
+   
+    height: 200px;
+    background-image: url(https://www.tanishq.co.in/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw6618ff68/images/home/bg-global.avif);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    border-radius: 5px;
+    /* border: 1px solid pink; */
+    background-size: cover;
+
+ }
+ .jewelleryHeading {
+    color: #832729;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 5px;
+}
+.text-red {
+    color: #832729;
+    font-weight: 600;
+}
+ .icon-img-appointment {
+    background-image: url(https://www.tanishq.co.in/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dwac5fb555/images/home/marker-icon.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+ }
+ .scheduleCard {
+    width:25%;
+    padding: 30px 30px;
+  
+    height: 200px;
+    background-image: url(https://www.tanishq.co.in/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw6618ff68/images/home/bg-global.avif);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    border-radius: 5px;
+    /* border: 1px solid pink; */
+    background-size: cover;
+ }
+ .scheduleHeading {
+    color: #832729;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 5px;
+}
+.text-red {
+    color: #832729;
+    font-weight: 600;
+}
+ .icon-img-schedule {
+    background-image: url(https://www.tanishq.co.in/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw153e7692/images/home/video-icon.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+ }
+
+
+ footer{
+    width: 100%;
+    height: 500px;
+    /* border: 2px solid rgb(240, 105, 15); */
+    background-color:#FED7BA;
+ }
+ .contect-info{
+    width: 100%;
+    margin-top: 50px;
+    padding-left: 20px;
+    height: 400px;
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    gap: 10px;
+    background-color:#D9D9D9;
+  
+  
+ }
+.contectCard{
+    width: 24%;
+    height: 43%;
+    color: white;
+    /* border: 2px solid green; */
+}
+.contectCard ul li {
+list-style: none;
+font-family: Nunito Sans;
+font-size: 20px;
+font-weight: 500;
+line-height: 25px;
+text-align: left;
+color: black;
+
+}
+.contectCard h3 {
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: #8B0000;
+    text-decoration: underline;
+
+    
+}
+.follow{
+    width: 100%;
+    height: 30px;
+    /* border: 1px solid red; */
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#8B0000;
+    gap: 10px;
+}
+.footC{
+ 
+    /* border: 1px solid red; */
+    color:#8B0000;
+    margin-top: 12px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
