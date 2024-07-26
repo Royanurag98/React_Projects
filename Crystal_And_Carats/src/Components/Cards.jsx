@@ -1,23 +1,28 @@
-import React, { useState } from 'react';
+import React, { createContext, useState } from 'react';
 import './HomPges.css'
 
 
-
+export  const Data=createContext()
 function Cards({ product }) {
 
   const [cart,setCart]=useState([])
   const handleClick = (product) => {
     console.log(product);
   
-   cart.push(product)
-    console.log(cart);
+ setCart(product)
+ console.log(cart)
   }
   const cardData=()=>{
     console.log(product.thumbnail,product.title,product.price,product.discountPercentage)
   }
+
   
   return (
     <div>
+    <Data.Provider value={cart}>
+      <cardDetails/>
+    </Data.Provider>
+  
       <div className="cards" onClick={cardData} >
       <img src={product.thumbnail} alt={product.title} />
       <h2>{product.title}</h2>
