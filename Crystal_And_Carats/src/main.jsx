@@ -28,10 +28,6 @@ const router=createBrowserRouter(
       <Route path='Womensection' element={<Womensection/>}/>
       <Route path='Kidsection' element={<Kidsection/>}/>
       <Route path='BridelCards' element={<BridelCards/>}/>
-      
-     
-         
-
    </Route>
   )
 )
